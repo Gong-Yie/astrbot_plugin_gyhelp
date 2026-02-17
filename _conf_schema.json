@@ -1,0 +1,55 @@
+{
+    "menu_title": {
+        "description": "帮助菜单的主标题文字",
+        "type": "string",
+        "default": "AstrBot 指令菜单",
+        "hint": "显示在图片最上方的大标题"
+    },
+    "menu_sub_title": {
+        "description": "副标题文字",
+        "type": "string",
+        "default": "",
+        "hint": "显示在主标题下方。留空则不显示，也不占用空间。"
+    },
+    "show_system_commands": {
+        "description": "是否显示 AstrBot 系统自带的指令",
+        "type": "bool",
+        "default": false,
+        "hint": "开启后，/help 将包含系统内置指令"
+    },
+    "background_image": {
+        "description": "背景图片文件名",
+        "type": "string",
+        "default": "",
+        "hint": "输入文件名(如 bg.jpg)。需将图片放入 data/astrbot_plugin_gyhelp/background/。留空则使用默认白色。"
+    },
+    "force_stretch": {
+        "description": "是否强制拉伸背景",
+        "type": "bool",
+        "default": false,
+        "hint": "开启则拉伸填满，关闭则保持比例或裁剪"
+    },
+    "overlay_opacity": {
+        "description": "文字背景遮罩透明度 (0-255)",
+        "type": "int",
+        "default": 230,
+        "hint": "越低越透，越高越白。用于保证在花哨背景上能看清字。"
+    },
+    "font_file": {
+        "description": "字体文件名",
+        "type": "string",
+        "default": "",
+        "hint": "输入文件名(如 myfont.ttf)。需放入 data/astrbot_plugin_gyhelp/font/。留空使用默认。"
+    },
+    "font_color": {
+        "description": "主要字体颜色 (Hex)",
+        "type": "string",
+        "default": "#333333"
+    },
+    "exclude_plugins": {
+        "description": "排除的插件名列表",
+        "type": "list",
+        "default": [],
+        "hint": "不想显示的插件名，如 astrbot_plugin_test"
+    }
+}

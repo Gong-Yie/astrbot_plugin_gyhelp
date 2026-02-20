@@ -38,7 +38,7 @@
     ```
 2.  克隆本仓库（或将插件文件夹上传至此目录）：
     ```bash
-    git clone [https://github.com/Gong-Yie/astrbot_plugin_gyhelp.git](https://github.com/Gong-Yie/astrbot_plugin_gyhelp.git)
+    git clone https://github.com/Gong-Yie/astrbot_plugin_gyhelp.git
     ```
 3.  安装依赖库（通常 AstrBot 环境已包含 PIL，若无请安装）：
     ```bash
